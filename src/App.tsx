@@ -381,7 +381,6 @@ export default function App() {
                 <img 
                   src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800" 
                   alt="Премиальная студия эстетики тела Nudebody" 
-                  referrerPolicy="no-referrer"
                   className="w-full h-[450px] object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
               </div>
@@ -429,7 +428,6 @@ export default function App() {
                       <img 
                         src={s.image} 
                         alt={s.title}
-                        referrerPolicy="no-referrer"
                         className="w-full h-full object-cover transform duration-700 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-brand-charcoal/5 group-hover:bg-brand-charcoal/0 transition-colors duration-500"></div>
